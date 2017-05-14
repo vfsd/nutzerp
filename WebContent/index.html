@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script type="text/javascript" src="admin/js/2.0.3/jquery-2.0.3.min.js"></script>
+	<!-- 把user id复制到一个js变量 -->
+	<script type="text/javascript">
+	    //var me = '<%=session.getAttribute("me") %>';
+	    var base = '${base}';
+	    $(function() {
+	        $("#login_button").click(function() {
+	            $.ajax({
+	                url : base + "/user/login",
+	                type: "POST",
+	                data:$('#loginForm').serialize(),
+	                error: function(request) {
+	                    alert("Connection error");
+	                },
+	                dataType:"json",
+	                success: function(data) {
+	                    alert(data);
+	                    if (data == true) {
+	                        alert("登陆成功");
+	                        location.reload();
+	                    } else {
+	                        alert("登陆失败,请检查账号密码")
+	                    }
+	                }
+	            });
+	            return false;
+	        });
+	        if (me != "null") {
+	            //$("#login_div").hide();
+	            //$("#userInfo").html("您的Id是" + me);
+	            //$("#user_info_div").show();
+	        } else {
+	            //$("#login_div").show();
+	            //$("#user_info_div").hide();
+	        }
+	    });
+		</script>
+	</head>
+	<body>
+		<h2>GG</h2>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+*{ margin:0px; padding:0px;}
+a{ text-decoration:none; color:#000000; text-align:center;}
+li{ list-style:none;}
+#left_menu{width:16%; border:0px solid blue;}
+#main_menu{height:99%;border:0px solid blue;box-sizing: border-box;}
+#left_menu div ul li{line-height:32px;letter-spacing:0px; font-family:'ºÚÌå'; font-size:16px;
+border-bottom:1px solid #ccc;
+}
+
+.user_msg{
+	background-color:#337CA6;
+	padding:20px;
+}
+
+.user_msg h2,h3,h4{
+	color:#fff;
+	font-family:'Î¢ÈíÑÅºÚ';
+	line-height:40px;
+	
+}
+
+
+
+
+
+
+
+
+
+

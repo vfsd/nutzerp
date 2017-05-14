@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+#table{width:600px;}
+#table tr{height:50px;}
+#table tr td{width:250px; height:32px;}
+#table tr td input{height:30px; width:200px;font-size:20px;}
+#table tr td select{height:30px; width:120px;font-size:20px}
+
+#table tr td textarea{font-size:20px}
+
+#inputDialog{background-images:url(admin/img/back.jpg)}
+#inputDialog form table{width:90%; margin:0 auto;}
+#inputDialog form table tr td{height:50px; text-align:center;}
+#inputDialog form table tr td input{width:200px; height:26px; font-size:20px;}
+
+#editDialog{background-images:url(admin/img/back.jpg)}
+#editDialog form table{width:95%; margin:0 auto;}
+#editDialog form table tr td{height:50px; text-align:center;}
+#editDialog form table tr td input{width:200px; height:26px; font-size:20px;}
+#left_menu div ul li{line-heught:32px;}
+
+
+.accountant_table{}
+.accountant_table tr td{border:1px solid #ddd;}
+.accountant_table tr td p{
+	width:100%;
+	cursor: pointer;
+	height:100%;
+	padding-top:10px;
+	font-size:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
